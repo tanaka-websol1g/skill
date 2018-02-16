@@ -1,0 +1,68 @@
+*, html, body, main {
+    /* margin: 0; */
+    /* padding: 0; */
+    font-family: "meiryo ui";
+    font-size: 16px;
+    line-height: 1.6rem;
+}
+
+
+
+main {
+    padding: 1rem;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #c7c7c7;
+    height: 0.5rem;
+    width: 10rem;
+    border-radius: 4px;
+    position: relative;
+    top: -2px;
+    margin-right: 1rem;
+}
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, .5);
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block;
+    background-color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+
+
+#title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+#input {
+    display: none;
+}
+
+#input > div {
+    margin-bottom: 3rem;
+}
+
+.category-block > span {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.skill-block {
+    margin: 1rem 0;
+}
+.skill-block > span:first-child {
+    display: inline-block;
+    width: 10rem;
+    margin-left: 1rem;
+}
